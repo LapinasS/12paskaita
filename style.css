@@ -1,0 +1,60 @@
+.container {
+
+    width: 80%;
+    margin: 0px auto;
+    /* display: flex;
+    justify-content: center; */
+    min-width: 800px;
+
+}
+.head {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(2, 2, 77);
+    color: white;
+    height: 300px;
+    justify-content: center;
+}
+.head h1 {
+    border-bottom: 2px white solid;
+    /* display: inline-block; */
+    margin-left: 10%;
+    width: 80%;
+    padding-bottom: 2%;
+
+}
+.headDown {
+    display: flex;
+    margin-left: 10%;
+    /* justify-content: start; */
+
+}
+.headDown p {
+    flex: 1 ;
+    margin:  0px 0px;
+}
+.headDown div {
+    flex: 2;
+}
+.getS {
+    margin-left: 1%;
+}
+.getS button {
+    background-color: rgb(2, 2, 77) ;
+    color: white;
+    border: 2px white solid;
+    width: 30%;
+    height: 70%;
+    font-size:small;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   
+}
+b {
+    font-size: 25px;
+    display: inline;
+    margin: 5px auto;
+  
+}
